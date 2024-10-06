@@ -27,7 +27,7 @@ function addTodo() {
 
     // Validate input values
     if (!name || !date) {
-        alert('Error: Name and date cannot be blank.');
+        alert('Error: Task Name and date cannot be blank.');
         return;
     }
 
